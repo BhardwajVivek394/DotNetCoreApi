@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4A00D27D-9917-4E6D-99A2-81680437AF30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebAPIAzure", "src\CoreWebAPIAzure\CoreWebAPIAzure.csproj", "{24ACC295-C986-48F5-B2AA-505052C1A526}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9A354CA0-4087-4EA3-BB71-5B10C4AD37FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebAPIAzure.Test", "test\CoreWebAPIAzure.Test\CoreWebAPIAzure.Test.csproj", "{563C1A03-3A7B-4F00-ABE0-7656F034BD94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24ACC295-C986-48F5-B2AA-505052C1A526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24ACC295-C986-48F5-B2AA-505052C1A526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24ACC295-C986-48F5-B2AA-505052C1A526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24ACC295-C986-48F5-B2AA-505052C1A526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563C1A03-3A7B-4F00-ABE0-7656F034BD94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563C1A03-3A7B-4F00-ABE0-7656F034BD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563C1A03-3A7B-4F00-ABE0-7656F034BD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563C1A03-3A7B-4F00-ABE0-7656F034BD94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24ACC295-C986-48F5-B2AA-505052C1A526} = {4A00D27D-9917-4E6D-99A2-81680437AF30}
+		{563C1A03-3A7B-4F00-ABE0-7656F034BD94} = {9A354CA0-4087-4EA3-BB71-5B10C4AD37FF}
+	EndGlobalSection
+EndGlobal
